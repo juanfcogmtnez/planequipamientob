@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<odoo>
+	<record id="action_open_planequipamiento" model="ir.actions.act_window">
+		<field name="name">Planes de equipamiento</field>
+		<field name="res_model">planequipamiento</field>
+		<field name="view_mode">tree,form</field>
+	</record>
+	<menuitem id="menu_principal" name="Planes de equipamiento"/>
+	<menuitem id="menu_horizontal" name="Planes de equipamiento" parent="menu_principal"/>
+	<menuitem id="menu_vertical" name="Planes de equipamiento" parent="menu_horizontal" action="action_open_planequipamiento"/>
+</odoo>
