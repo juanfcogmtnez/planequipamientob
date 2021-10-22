@@ -3,7 +3,7 @@
 {
 	'name':'Módulo de plan de equipamiento',
 	'version':'1.0',
-	'depends':['base'],
+	'depends':['project'],
 	'author':'Juan Fco Garcia',
 	'category':'Consultoría',
 	'description':'''
@@ -11,5 +11,6 @@
 	''',
 	'data':[
 	'views/menu.xml',
+	'views/planequipamiento_views.xml'
 ],
 }
