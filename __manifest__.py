@@ -10,6 +10,6 @@
 	Modulo para elaborar planes de equipamiento
 	''',
 	'data':[
-	'views/equipamientob_views.xml'
-],
+		'views/planequipamientob_views.xml'
+	]
 }
