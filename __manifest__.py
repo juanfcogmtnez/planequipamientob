@@ -8,9 +8,5 @@
 	'category':'Consultoría',
 	'description':'''
 	Modulo para elaborar planes de equipamiento
-	''',
-	'data':[
-	'views/menu.xml',
-	'views/planequipamiento_views.xml'
-],
+	'''
 }
